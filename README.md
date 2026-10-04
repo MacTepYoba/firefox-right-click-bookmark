@@ -1,0 +1,1 @@
+# firefox-right-click-bookmark
