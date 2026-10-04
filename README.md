@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="#русский">
-    <img src="https://img.shields.io/badge/Русский-0969DA?style=flat-square" alt="Русский">
+    <img src="https://img.shields.io/badge/РУС-Русский-7C3AED?style=for-the-badge" alt="Русский">
   </a>
   &nbsp;
   <a href="#english">
-    <img src="https://img.shields.io/badge/English-0969DA?style=flat-square" alt="English">
+    <img src="https://img.shields.io/badge/ENG-English-FF7139?style=for-the-badge" alt="English">
   </a>
 </p>
 
@@ -87,9 +87,13 @@
 
 ## Конфиденциальность
 
-Расширение не собирает, не передаёт, не продаёт и не предоставляет третьим лицам персональные данные. Расширение не выполняет внешние сетевые запросы.
+Расширение не собирает, не передаёт, не продаёт и не предоставляет третьим лицам персональные данные.
 
-Название и URL активной вкладки считываются только после вызова расширения и временно сохраняются в session storage Firefox, пока открыто окно добавления закладки. Эти данные используются исключительно для создания запрошенной пользователем закладки.
+Расширение не выполняет внешние сетевые запросы.
+
+Название и URL активной вкладки считываются только после вызова расширения и временно сохраняются в session storage Firefox, пока открыто окно добавления закладки.
+
+Эти данные используются исключительно для создания запрошенной пользователем закладки.
 
 Подробнее: [PRIVACY.md](https://github.com/MacTepYoba/firefox-right-click-bookmark/blob/main/PRIVACY.md)
 
@@ -187,9 +191,13 @@ The extension does not require the collection of user data.
 
 ## Privacy
 
-The extension does not collect, transmit, sell, or share personal data and does not make external network requests.
+The extension does not collect, transmit, sell, or share personal data.
 
-The active tab title and URL are read only when you invoke the extension and are temporarily stored in Firefox session storage while the add bookmark dialog is open. This information is used solely to create the bookmark requested by the user.
+It does not make external network requests.
+
+The active tab title and URL are read only when you invoke the extension and are temporarily stored in Firefox session storage while the add bookmark dialog is open.
+
+This information is used solely to create the bookmark requested by the user.
 
 See [PRIVACY.md](https://github.com/MacTepYoba/firefox-right-click-bookmark/blob/main/PRIVACY.md) for details.
 
