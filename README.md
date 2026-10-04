@@ -6,9 +6,9 @@
 [![Version](https://img.shields.io/badge/version-1.3.2-brightgreen)](https://github.com/MacTepYoba/firefox-right-click-bookmark/releases)
 
 <p align="center">
-  <a href="#русский"><kbd>🇷🇺 Русский</kbd></a>
-  &nbsp;
-  <a href="#english"><kbd>🇬🇧 English</kbd></a>
+  <a href="#русский"><kbd>🇷🇺 &nbsp;Русский</kbd></a>
+  &nbsp;&nbsp;
+  <a href="#english"><kbd>🇬🇧 &nbsp;English</kbd></a>
 </p>
 
 ---
@@ -21,20 +21,20 @@
 
 Расширение реализует привычный функционал **Google Chrome и других браузеров на базе Chromium**, где при нажатии правой кнопкой мыши на папке закладок можно сразу добавить в неё новую закладку.
 
-В Firefox такой возможности в контекстном меню закладок по умолчанию нет. Right-Click Bookmark добавляет её, сохраняя привычный и простой сценарий работы с закладками.
+В Firefox такой возможности в контекстном меню закладок по умолчанию нет. **Right-Click Bookmark** добавляет её, сохраняя привычный и простой сценарий работы с закладками.
 
 ## Возможности
 
 - Добавление новой закладки через контекстное меню закладок Firefox.
-- Повторяет привычный сценарий работы с закладками из Google Chrome и Chromium-подобных браузеров.
-- Использует текущую активную вкладку для создания новой закладки.
-- Позволяет изменить название и URL закладки перед сохранением.
-- При вызове меню на закладке сохраняет новую закладку в родительскую папку выбранной закладки.
-- Поддерживает управление с клавиатуры:
+- Привычный сценарий работы с закладками, аналогичный Google Chrome и другим Chromium-подобным браузерам.
+- Использование текущей активной вкладки для создания новой закладки.
+- Возможность изменить название и URL закладки перед сохранением.
+- При вызове меню на закладке новая закладка сохраняется в родительскую папку выбранной закладки.
+- Управление с клавиатуры:
   - **Enter** — сохранить;
   - **Esc** — отменить.
-- Поддерживает русскую и английскую локализацию.
-- Не использует внешние сервисы.
+- Русская и английская локализация.
+- Отсутствие внешних сервисов и сетевых запросов.
 
 ## Использование
 
@@ -59,7 +59,7 @@
 3. Нажмите **«Загрузить временное дополнение...»**.
 4. Выберите файл `manifest.json` из каталога проекта.
 
-Временные дополнения удаляются после перезапуска Firefox.
+Временное дополнение будет удалено после перезапуска Firefox.
 
 Для постоянного использования рекомендуется устанавливать подписанную версию расширения.
 
@@ -128,20 +128,20 @@
 
 The extension brings to Firefox the familiar functionality available in **Google Chrome and other Chromium-based browsers**, where you can right-click a bookmarks folder and immediately add a new bookmark to it.
 
-Firefox does not provide this option in the bookmarks context menu by default. Right-Click Bookmark adds it while preserving the simple and familiar bookmark management workflow.
+Firefox does not provide this option in the bookmarks context menu by default. **Right-Click Bookmark** adds it while preserving the simple and familiar bookmark management workflow.
 
 ## Features
 
 - Add a new bookmark directly from the Firefox bookmarks context menu.
-- Brings the familiar Google Chrome and Chromium bookmark workflow to Firefox.
+- Familiar bookmark workflow similar to Google Chrome and other Chromium-based browsers.
 - Uses the currently active tab to create a new bookmark.
 - Lets you edit the bookmark title and URL before saving.
-- When invoked on a bookmark, saves the new bookmark to the parent folder of the selected bookmark.
+- When invoked on a bookmark, the new bookmark is saved to the parent folder of the selected bookmark.
 - Keyboard controls:
   - **Enter** — save;
   - **Esc** — cancel.
-- Supports Russian and English localization.
-- Does not use external services.
+- Russian and English localization.
+- No external services or network requests.
 
 ## Usage
 
@@ -166,7 +166,7 @@ Review or edit the title and URL, then save the bookmark.
 3. Click **Load Temporary Add-on...**
 4. Select `manifest.json` from the project directory.
 
-Temporary add-ons are removed when Firefox restarts.
+The temporary add-on will be removed when Firefox restarts.
 
 For normal use, installing a signed release is recommended.
 
@@ -179,7 +179,7 @@ For normal use, installing a signed release is recommended.
 | `tabs` | Reads the title and URL of the active tab. |
 | `storage` | Temporarily stores dialog state in session storage. |
 
-The extension does not require collection of user data.
+The extension does not require the collection of user data.
 
 ## Project Structure
 
