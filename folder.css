@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { margin: 0; font: menu; background: Canvas; color: CanvasText; }
+main { padding: 10px 16px 8px; }
+label { display: block; margin: 0 0 4px; font-size: 13px; line-height: 16px; }
+input { display: block; width: 100%; height: 30px; margin: 0; padding: 4px 8px; border: 1px solid color-mix(in srgb, CanvasText 28%, transparent); border-radius: 4px; background: Field; color: FieldText; font: menu; }
+input:focus { outline: 2px solid AccentColor; outline-offset: -1px; }
+#error { display: none; margin: 4px 0 0; font-size: 12px; line-height: 14px; color: #c50000; }
+#error:not(:empty) { display: block; }
+.buttons { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+button { min-width: 86px; height: 30px; padding: 0 14px; border: 1px solid color-mix(in srgb, CanvasText 25%, transparent); border-radius: 4px; font: menu; cursor: pointer; }
+button.primary { background: AccentColor; color: AccentColorText; border-color: AccentColor; }
+button:disabled { opacity: .6; cursor: default; }

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Добавить закладку</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="content.js" defer></script>
+</head>
+<body>
+  <main>
+    <label for="title">Название</label>
+    <input id="title" type="text" maxlength="1000" autocomplete="off">
+
+    <label for="url">URL</label>
+    <input id="url" type="url" maxlength="8000" spellcheck="false" autocomplete="off">
+
+    <div id="error" role="alert"></div>
+    <div class="buttons">
+      <button id="cancel" type="button">Отмена</button>
+      <button id="save" type="button" class="primary">Добавить</button>
+    </div>
+  </main>
+</body>
+</html>
