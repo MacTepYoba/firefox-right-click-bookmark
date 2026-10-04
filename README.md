@@ -5,11 +5,18 @@
 [![License](https://img.shields.io/badge/License-MPL--2.0-blue)](https://github.com/MacTepYoba/firefox-right-click-bookmark/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/version-1.3.2-brightgreen)](https://github.com/MacTepYoba/firefox-right-click-bookmark/releases)
 
-[Русский](#русский) | [English](#english)
+<p align="center">
+  <a href="#-русский">
+    <img src="https://img.shields.io/badge/🇷🇺_Русский-0969DA?style=for-the-badge" alt="Русский">
+  </a>
+  <a href="#-english">
+    <img src="https://img.shields.io/badge/🇬🇧_English-0969DA?style=for-the-badge" alt="English">
+  </a>
+</p>
 
 ---
 
-# Русский
+# 🇷🇺 Русский
 
 **Right-Click Bookmark** добавляет в Mozilla Firefox возможность создавать новую закладку прямо из контекстного меню панели и дерева закладок.
 
@@ -114,7 +121,7 @@
 
 ---
 
-# English
+# 🇬🇧 English
 
 **Right-Click Bookmark** adds the ability to create a new bookmark directly from the bookmarks context menu in Mozilla Firefox.
 
