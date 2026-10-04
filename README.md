@@ -6,15 +6,14 @@
 [![Version](https://img.shields.io/badge/version-1.3.2-brightgreen)](https://github.com/MacTepYoba/firefox-right-click-bookmark/releases)
 
 <p align="center">
-  <a href="#-русский">
-    <img src="https://img.shields.io/badge/🇷🇺_Русский-0969DA?style=for-the-badge" alt="Русский">
-  </a>
-  <a href="#-english">
-    <img src="https://img.shields.io/badge/🇬🇧_English-0969DA?style=for-the-badge" alt="English">
-  </a>
+  <a href="#русский"><kbd>🇷🇺 Русский</kbd></a>
+  &nbsp;
+  <a href="#english"><kbd>🇬🇧 English</kbd></a>
 </p>
 
 ---
+
+<a id="русский"></a>
 
 # 🇷🇺 Русский
 
@@ -120,6 +119,8 @@
 **Evgeny Khramtsov** — [MacTepYoba](https://github.com/MacTepYoba)
 
 ---
+
+<a id="english"></a>
 
 # 🇬🇧 English
 
