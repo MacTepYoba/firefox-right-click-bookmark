@@ -52,10 +52,7 @@
 ### Временная установка для разработки
 
 1. Скачайте или клонируйте репозиторий.
-2. Откройте в Firefox:
-
-   `about:debugging#/runtime/this-firefox`
-
+2. Откройте в Firefox: `about:debugging#/runtime/this-firefox`
 3. Нажмите **«Загрузить временное дополнение...»**.
 4. Выберите файл `manifest.json` из каталога проекта.
 
@@ -86,13 +83,9 @@
 
 ## Конфиденциальность
 
-Расширение не собирает, не передаёт, не продаёт и не предоставляет третьим лицам персональные данные.
+Расширение не собирает, не передаёт, не продаёт и не предоставляет третьим лицам персональные данные. Расширение не выполняет внешние сетевые запросы.
 
-Расширение не выполняет внешние сетевые запросы.
-
-Название и URL активной вкладки считываются только после вызова расширения и временно сохраняются в session storage Firefox, пока открыто окно добавления закладки.
-
-Эти данные используются исключительно для создания запрошенной пользователем закладки.
+Название и URL активной вкладки считываются только после вызова расширения и временно сохраняются в session storage Firefox, пока открыто окно добавления закладки. Эти данные используются исключительно для создания запрошенной пользователем закладки.
 
 Подробнее: [PRIVACY.md](https://github.com/MacTepYoba/firefox-right-click-bookmark/blob/main/PRIVACY.md)
 
@@ -159,10 +152,7 @@ Review or edit the title and URL, then save the bookmark.
 ### Temporary installation for development
 
 1. Download or clone this repository.
-2. Open the following page in Firefox:
-
-   `about:debugging#/runtime/this-firefox`
-
+2. Open `about:debugging#/runtime/this-firefox` in Firefox.
 3. Click **Load Temporary Add-on...**
 4. Select `manifest.json` from the project directory.
 
@@ -193,13 +183,9 @@ The extension does not require the collection of user data.
 
 ## Privacy
 
-The extension does not collect, transmit, sell, or share personal data.
+The extension does not collect, transmit, sell, or share personal data and does not make external network requests.
 
-It does not make external network requests.
-
-The active tab title and URL are read only when you invoke the extension and are temporarily stored in Firefox session storage while the add bookmark dialog is open.
-
-This information is used solely to create the bookmark requested by the user.
+The active tab title and URL are read only when you invoke the extension and are temporarily stored in Firefox session storage while the add bookmark dialog is open. This information is used solely to create the bookmark requested by the user.
 
 See [PRIVACY.md](https://github.com/MacTepYoba/firefox-right-click-bookmark/blob/main/PRIVACY.md) for details.
 
